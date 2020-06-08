@@ -1,12 +1,12 @@
 // capitalizeFirst.js
 const assert = require('assert');
 
-assert.strictEqual(typeof capitalizeFirst, 'function');
+assert.strictEqual(typeof capitalizeFirstLetters, 'function');
 
-assert.notEqual(capitalizeFirst.length, 0);
+assert.notEqual(capitalizeFirstLetters.length, 0);
 
-assert.strictEqual(capitalizeFirst('javaScript bleu'), 'JavaScript Bleu');
+assert.strictEqual(capitalizeFirstLetters('javaScript bleu'), 'JavaScript Bleu');
 
-assert.strictEqual(capitalizeFirst('z'), 'Z');
+assert.strictEqual(capitalizeFirstLetters('z'), 'Z');
 
-assert.strictEqual(capitalizeFirst(''), '');
+assert.strictEqual(capitalizeFirstLetters(''), '');
