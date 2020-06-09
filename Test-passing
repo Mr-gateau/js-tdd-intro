@@ -1,0 +1,29 @@
+$ npm test
+
+> js-tdd-intro@1.0.0 test D:\Wild-code\tdd\js-tdd-intro
+> mocha
+
+
+
+  capitalizer
+    √ NEW is a function accepting one argument
+    √ NEW transforms javaScript correctly
+    √ NEW transforms multi words
+    √ NEW works with a 1-character string
+    √ NEW works with an empty string
+
+  capitalizeFirst
+    √ is a function accepting one argument
+    √ transforms javaScript correctly
+    √ works with a 1-character string
+    √ works with an empty string
+
+  Rectangle
+its true
+its true
+    √ Square is test
+    √ Area test
+    √ Perimetre test
+
+
+  12 passing (57ms)
