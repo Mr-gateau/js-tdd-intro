@@ -1,15 +1,6 @@
 
-const assert = require('assert');
 
-assert.strictEqual(typeof capitalizeFirst, 'function');
-assert.strictEqual(capitalizeFirst.length, 1);
-assert.strictEqual(capitalizeFirst('javaScript bleu rouge'), 'JavaScript Bleu Rouge');
-assert.strictEqual(capitalizeFirst('z'), 'Z');
-assert.strictEqual(capitalizeFirst(''), '');
-
-
-
-function capitalizeFirst(input){
+function Capitalizer(input){
   const end = [];
   if(typeof input[0] === 'string' ){
     end.push(input[0].toUpperCase());
@@ -27,3 +18,5 @@ function capitalizeFirst(input){
   }
     return end.join('');
   };
+
+module.exports = Capitalizer;
